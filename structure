@@ -1,0 +1,14 @@
+
+
+Input:
+    > Input Image Shape = {(int, int, int)}
+    > No. of Layers, L  = {int}
+
+Layer Description:
+
+layer = {'type'        : 'conv/pool/linear' {str},
+         'nodes'       : {int},                   //only valid for linear
+         'stride'      : {int},
+         'filter_size' : {int, int},
+         'filter_count': {int},
+        }
